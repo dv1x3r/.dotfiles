@@ -29,7 +29,7 @@ formatter = { command = "dprint", args = ["fmt", "--stdin", "toml"] }
 [[language]]
 name = "gotmpl"
 auto-format = true
-language-servers = [ "gopls", "emmet-ls", "tailwindcss-ls" ]
+language-servers = ["gopls", "emmet-ls", "tailwindcss-ls"]
 formatter = { command = "djlint", args = ["-", "--reformat", "--quiet", "--profile=golang"] }
 
 [[language]]
@@ -41,5 +41,5 @@ language-servers = ["templ", "emmet-ls", "tailwindcss-ls"]
 config = { userLanguages = { templ = "html", "gotmpl" = "html" } }
 
 [language-server.emmet-ls]
-command="emmet-ls"
+command = "emmet-ls"
 args = ["--stdio"]
