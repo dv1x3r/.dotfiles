@@ -1,0 +1,15 @@
+theme = TokyoNight Moon
+#theme = Builtin Tango Dark
+#background = #3f3f3f
+background-opacity = 0.95
+background-blur = true
+
+font-family = Hack Nerd Font Mono
+font-size = 14
+font-thicken = true
+font-thicken-strength = 70
+
+confirm-close-surface = false
+window-step-resize = true
+gtk-titlebar-style = tabs
+macos-titlebar-style = tabs
